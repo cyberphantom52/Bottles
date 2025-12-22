@@ -143,8 +143,8 @@ modules:
     sources: &gamemode_sources
       - type: git
         url: https://github.com/FeralInteractive/gamemode
-        tag: 1.8.1
-        commit: 5180d89e66830d87f69687b95fb86f622552b94b
+        tag: 1.8.2
+        commit: c54d6d4243b0dd0afcb49f2c9836d432da171a2b
         x-checker-data:
           type: git
           is-important: true
@@ -169,8 +169,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/xorg/app/xdpyinfo.git
-        tag: xdpyinfo-1.3.4
-        commit: ea4083ccb2a5ce4252acabeb2eb7bf49f7be25e0
+        tag: xdpyinfo-1.4.0
+        commit: 7fe49a22498b9438a15d5d9fdef55d5d832b1672
         x-checker-data:
           type: git
           tag-pattern: ^xdpyinfo-([\d.]+)$
@@ -187,8 +187,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ImageMagick/ImageMagick
-        tag: 7.1.1-23
-        commit: 54b13e91d262b1083e27fc8c02532c89d3ff649c
+        tag: 7.1.2-11
+        commit: 578d60d1bf77be54b16ef2673d507932885570dd
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+-[\d]+)$
@@ -201,8 +201,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/flatpak/libportal
-        tag: 0.7.1
-        commit: e9ed3a50cdde321eaf42361212480a66eb94a57a
+        tag: 0.9.1
+        commit: 8f5dc8d192f6e31dafe69e35219e3b707bde71ce
         x-checker-data:
           type: git
           is-important: true
@@ -213,8 +213,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.10.0
-        commit: 2a39a16391122af2f3d812e478c1c1398c98b972
+        tag: v0.18.0
+        commit: 07c9c9df9cd1b6b4454ecba21ee58211e9144a4b
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
@@ -242,8 +242,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/bottlesdevs/EasyTerm
-        tag: 0.2.0
-        commit: 6fbeab0470df55aeab141a45763147440b2f0290
+        tag: 1.0.0
+        commit: 4ab1f6a14111d05bcca9537bd479e450162e5a40
         x-checker-data:
           type: git
           is-important: true
@@ -257,8 +257,8 @@ modules:
         sources:
           - type: git
             url: https://gitlab.gnome.org/GNOME/vte
-            tag: 0.74.2
-            commit: 3f66edbf598129bafde3baa91ccfb345056418c3
+            tag: 0.82.2
+            commit: 1e7f7d58520b858458b5388ecdb25ba762dcd584
             x-checker-data:
               type: git
               tag-pattern: ^([\d.]+)$
